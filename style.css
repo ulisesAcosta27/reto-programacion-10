@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.clase{
+    margin: 1rem 0;
+}
+.container{
+    display: flex;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    padding: 0 1rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 30rem;
+    height: 27rem;
+    background-color: blanchedalmond;
+    align-items: center;
+    text-align: center;
+}
+.nombre{
+    display: flex;
+    flex-direction: column;
+}
+
+.gustos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select{
+    margin-top: 1rem;
+    width: 10rem;
+}
+
+.mostrarFormulario{
+    background-color: blanchedalmond;
+    text-align: center;
+    padding: 1rem;
+}
+
+h3{
+    margin-top: 1rem;
+}
+p{
+    margin: 1rem;
+}

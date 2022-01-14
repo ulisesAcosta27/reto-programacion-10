@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form id="lista_formulario" name="formulario-lista">
+            <div class="clase nombre">
+                <label for="nombre">Nombre</label>
+                <input id="nombre" type="text">
+            </div>
+            <div class="clase gustos">
+                <label for="gustos">De lo aprendido hasta ahora¿Que tema te gusto mas?</label>
+                <select id="gustos_personales" >
+                    <option value="HTML">HTML</option>
+                    <option value="Css">Css</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="React">React</option>
+                </select>
+            </div>
+            <div class="clase preferencias">
+                <label for="">Preferia estudiar</label>
+                <div class="flex turno">
+                    <div class="separador">
+                        <input class="valoresTurnos" type="radio" value="DeDia">
+                        <label>de dia</label>
+                    </div>
+                    <div class="separador">
+                        <input class="valoresTurnos" type="radio" value="DeNoche">
+                        <label>de noche</label>
+                    </div>
+
+                </div>
+            </div>
+            <div class="clase complejidad">
+                <label>Cuales fueron los temas mas complejos hasta ahora</label>
+                <div class="flex temario">
+                    <div class="separador">
+                        <input type="checkbox" name="" class="valoresTemario" value="TypeScript">
+                        <label>TypeScript</label>
+                    </div>
+                    <div class="separador">
+                        <input type="checkbox" name="" class="valoresTemario" value="Promesas">
+                        <label>Promesas</label>
+                    </div>
+                    <div class="separador">
+                        <input type="checkbox" name="" class="valoresTemario" value="Clases">
+                        <label>Clases</label>
+                    </div>
+                    <div class="separador">
+                        <input type="checkbox" name="" class="valoresTemario" value="Funciones">
+                        <label>Funciones</label>
+                    </div>
+
+                </div>
+            </div>
+                <input type="submit" value="enviar">
+        </form>
+        <div class="mostrarFormulario"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
